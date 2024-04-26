@@ -5138,36 +5138,42 @@ function initializeAudio() {
     autoplay: false,
     loop: true,
     volume: 0,
+    html5: true,
   });
 
   click = new howler__WEBPACK_IMPORTED_MODULE_0__.Howl({
     src: [__webpack_require__(/*! ../../assets/sounds/click_square.ogg */ "./src/assets/sounds/click_square.ogg")],
     autoplay: false,
     volume: 0,
+    html5: true,
   });
 
   winOpen = new howler__WEBPACK_IMPORTED_MODULE_0__.Howl({
     src: [__webpack_require__(/*! ../../assets/sounds/window_open.ogg */ "./src/assets/sounds/window_open.ogg")],
     autoplay: false,
     volume: 0,
+    html5: true,
   });
 
   winClose = new howler__WEBPACK_IMPORTED_MODULE_0__.Howl({
     src: [__webpack_require__(/*! ../../assets/sounds/window_close.ogg */ "./src/assets/sounds/window_close.ogg")],
     autoplay: false,
     volume: 0,
+    html5: true,
   });
 
   scrollUp = new howler__WEBPACK_IMPORTED_MODULE_0__.Howl({
     src: [__webpack_require__(/*! ../../assets/sounds/scroll_up.ogg */ "./src/assets/sounds/scroll_up.ogg")],
     autoplay: false,
     volume: 0,
+    html5: true,
   });
 
   scrollDown = new howler__WEBPACK_IMPORTED_MODULE_0__.Howl({
     src: [__webpack_require__(/*! ../../assets/sounds/scroll_down.ogg */ "./src/assets/sounds/scroll_down.ogg")],
     autoplay: false,
     volume: 0,
+    html5: true,
   });
 
   window.addEventListener('blur', function () {
