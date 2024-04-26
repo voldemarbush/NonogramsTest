@@ -5132,7 +5132,7 @@ let scrollDown;
 
 function initializeAudio() {
   let musicTime = 0;
-
+  return;
   music = new howler__WEBPACK_IMPORTED_MODULE_0__.Howl({
     src: [__webpack_require__(/*! ../../assets/sounds/music.ogg */ "./src/assets/sounds/music.ogg")],
     autoplay: false,
@@ -5191,44 +5191,51 @@ function initializeAudio() {
 }
 
 function musicStart() {
+  return;
   music.play();
 }
 
 function musicStop() {
+  return;
   music.stop();
 }
 
 function clickPlay() {
+  return;
   click.play();
 }
 
 function winOpenPlay() {
+  return;
   winOpen.play();
 }
 
 function winClosePlay() {
+  return;
   winClose.play();
 }
 
 function scrollUpPlay() {
+  return;
   scrollUp.play();
 }
 
 function scrollDownPlay() {
+  return;
   scrollDown.play();
 }
 
 function musicVolumeSet(value) {
-  music.volume(value);
+  /*   music.volume(value); */
   _globals_globals__WEBPACK_IMPORTED_MODULE_1__.gameSettings.musicVolume = value;
 }
 
 function soundsVolumeSet(value) {
-  click.volume(value);
+  /*   click.volume(value);
   winOpen.volume(value);
   winClose.volume(value);
   scrollUp.volume(value);
-  scrollDown.volume(value);
+  scrollDown.volume(value); */
   _globals_globals__WEBPACK_IMPORTED_MODULE_1__.gameSettings.soundsVolume = value;
 }
 
