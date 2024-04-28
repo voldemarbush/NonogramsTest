@@ -5256,11 +5256,11 @@ function startMain() {
 
   introScreen.classList.add('hide');
 
-  if (document.fullscreenElement) {
+  /*   if (document.fullscreenElement) {
     document.exitFullscreen();
   } else {
     elem.requestFullscreen();
-  }
+  } */
 
   (0,_soundsRemote__WEBPACK_IMPORTED_MODULE_1__.initializeAudio)();
   (0,_soundsRemote__WEBPACK_IMPORTED_MODULE_1__.musicVolumeSet)(_globals_globals__WEBPACK_IMPORTED_MODULE_0__.gameSettings.musicVolume);
